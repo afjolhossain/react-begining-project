@@ -1,0 +1,29 @@
+.singer-container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.singers-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img {
+  width: 30%;
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.img:hover {
+  width: 40%;
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 60%;
+}
+.header-up-portion {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  margin-left: 330px;
+  width: 700px;
+  height: 200px;
+}

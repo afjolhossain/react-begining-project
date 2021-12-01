@@ -1,0 +1,23 @@
+.nav-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  background-color: black;
+}
+
+.concert-name {
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.concert-route {
+  margin-top: 15px;
+  margin-left: 750px;
+}
+.concert-route a {
+  margin-top: 15px;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
